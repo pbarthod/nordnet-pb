@@ -1,0 +1,16 @@
+accelerator:
+  displayName: Inclusion Frontend
+  description: Web Portal in Node.js using Express. 
+  iconUrl: https://github.com/fklein82/Inclusion-nodeportal/raw/main/acclerator.png
+  tags:
+    - nodejs
+    - express
+  options:
+    - name: pkgName
+      label: Package name
+      inputType: text
+      defaultValue: "com.example"
+      required: true
+engine:
+  merge:
+    - include: [ "**/*" ]

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: emoji-portal-domain
+  description: Everything related to Emojis
+  links:
+    - url: https://nodejs.org/en/
+      title: Node.js
+    - url: https://nodejs.org/en/
+      title: Node.js
+      icon: dashboard
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: team-vmware-tanzu-se

@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name:  emoji-portal
+  description: Emoji Portal
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: team-vmware-tanzu-se
+  domain: emoji-portal-domain
