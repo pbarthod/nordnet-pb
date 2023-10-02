@@ -10,6 +10,6 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/fklein82/Inclusion-nodeportal.git
+      url: https://github.com/fklein82/nordnet-demo.git
       ref:
         branch: main
