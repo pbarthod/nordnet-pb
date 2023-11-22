@@ -9,7 +9,7 @@ metadata:
     - express
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=inclusion-node-portal'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=nordnet-portal-pb'
     'backstage.io/techdocs-ref': dir:.
   links:
     - url: https://nodejs.org/
